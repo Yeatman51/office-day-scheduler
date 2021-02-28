@@ -5,7 +5,7 @@ body {
   background-color: rgb(43, 137, 226);
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -33,12 +33,15 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  height: 50px;
+  width: 100%;
+  /* border-top: 1px solid white; */
+  display: flex;
+  margin-left: 15px;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: rgb(43, 137, 226);
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -72,9 +75,8 @@ textarea{
 }
 
 input {
-  margin-left: 15px;
-  align-items: center;
-  justify-content: center;
+  /* margin-left: 15px; */
+  width: 60%;
 }
 
 ul {
